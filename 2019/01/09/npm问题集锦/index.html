@@ -10,8 +10,9 @@
 
     <!--Description-->
     
-        <meta name="description" content="官网https://hexo.io/zh-cn/docs/
-常用命令1234567$ npm install -g hexo-cli$ hexo new [layout] &amp;lt;title&amp;gt; //创建文章// 您可以在命令中指定文章的布局（layout），默认为 post，可以通过修改 _c">
+        <meta name="description" content="error 011vue-template-compiler must be installed as a peer dependency, or a compatible compiler implementation must be passed via options.
+
+方法一 ：检查 pa">
     
 
     <!--Author-->
@@ -21,7 +22,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="hexo笔记">
+        <meta property="og:title" content="npm问题集锦">
     
 
     <!--Open Graph Description-->
@@ -43,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>hexo笔记 - Hexo</title>
+    <title>npm问题集锦 - Hexo</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -141,8 +142,8 @@
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/2019/01/09/hexo笔记/">
-                hexo笔记
+            <a href="/2019/01/09/npm问题集锦/">
+                npm问题集锦
             </a>
         </h1>
         <div class="post-info">
@@ -152,7 +153,7 @@
             
             
                 <span class="category">
-                    <a href="/categories/js/">js</a>
+                    <a href="/categories/nodejs/">nodejs</a>
                 </span>
             
         </div>
@@ -164,16 +165,14 @@
         
 
         <!-- Post Content -->
-        <h1 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h1><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
-<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ hexo new [layout] &lt;title&gt; //创建文章</span><br><span class="line">// 您可以在命令中指定文章的布局（layout），默认为 post，可以通过修改 _config.yml 中的 default_layout 参数来指定默认布局。</span><br><span class="line">$ hexo clean //清理</span><br><span class="line">$ hexo generate // 生成静态文件</span><br><span class="line">$ hexo server //创建 http://localhost:4000 本地服务器</span><br><span class="line">$ hexo clean &amp;&amp; hexo deploy //清理后发布</span><br></pre></td></tr></table></figure>
-<h1 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h1><p>关于在 windows 下不能 deploy 的问题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">admin:</span><br><span class="line">  username: 看不见</span><br><span class="line">  password_hash: 看不见</span><br><span class="line">  secret: 看不见</span><br><span class="line">  deployCommand: &apos;sh hexo-deploy.sh&apos;</span><br><span class="line">http://inmyai.com/2018/05/01/Hexo-Admin-</span><br></pre></td></tr></table></figure></p>
-<p><a href="http://inmyai.com/2018/05/01/Hexo-Admin-Deploy%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/" target="_blank" rel="noopener">http://inmyai.com/2018/05/01/Hexo-Admin-Deploy%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</a></p>
-<p>关于在 centos 下不能 deploy 的问题</p>
-<p>修改 _config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">admin:</span><br><span class="line">  username: yunlongw</span><br><span class="line">  password_hash: $2a$10$J/7hs7S1IsfRFD3fJTQMPeEUnoxQL.XObUMX5L8DFkO3rWcsrKKgO</span><br><span class="line">  secret: dsafwqr@!#435fewrqw</span><br><span class="line">  deployCommand: &apos;./hexo-deploy.sh&apos;</span><br></pre></td></tr></table></figure></p>
-<p>生成脚本</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">touch hexo-deploy.sh</span><br><span class="line">chmod a+x hexo-deploy.sh</span><br></pre></td></tr></table></figure>
-<h1 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h1><p><a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a></p>
-<h1 id="关于搭建"><a href="#关于搭建" class="headerlink" title="关于搭建"></a>关于搭建</h1><p><a href="https://juejin.im/post/5b38be1a6fb9a00e7b5b2884" target="_blank" rel="noopener">https://juejin.im/post/5b38be1a6fb9a00e7b5b2884</a><br><a href="https://peithon.github.io/2018/05/16/blog-setup/" target="_blank" rel="noopener">https://peithon.github.io/2018/05/16/blog-setup/</a></p>
+        <h1 id="error-01"><a href="#error-01" class="headerlink" title="error 01"></a>error 01</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue-template-compiler must be installed as a peer dependency, or a compatible compiler implementation must be passed via options.</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方法一 ：检查 package.json 确认 vue 版本和 vue-template-compiler 是否一致, 修改为一致后执行 npm install</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&quot;devDependencies&quot;: &#123;</span><br><span class="line">        &quot;vue&quot;: &quot;^2.5.21&quot;,</span><br><span class="line">        &quot;vue-template-compiler&quot;: &quot;^2.5.21&quot;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方法二：重新安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-template-compiler -D</span><br></pre></td></tr></table></figure></li>
+</ul>
 
     </div>
 
@@ -182,7 +181,7 @@
     
         <div class="post-tags">
             <i class="fa fa-tags" aria-hidden="true"></i>
-            <a href="/tags/nodejs/">#nodejs</a>
+            <a href="/tags/nodejs/">#nodejs</a> <a href="/tags/npm/">#npm</a>
         </div>
     
 
