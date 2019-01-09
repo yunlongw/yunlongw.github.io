@@ -10,6 +10,9 @@
 
     <!--Description-->
     
+        <meta name="description" content="官网https://laradock.io/
+介绍Docker的完整PHP开发环境。包括预先打包的Docker镜像，所有这些都经过预先配置，可提供出色的PHP开发环境。Laradock在Laravel社区中是众所周知的，因为该项目始于专注于在Docker上运行Laravel项目。后来由于PHP社区的">
+    
 
     <!--Author-->
     
@@ -18,7 +21,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hexo">
+        <meta property="og:title" content="laradock笔记">
     
 
     <!--Open Graph Description-->
@@ -29,7 +32,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -40,7 +43,7 @@
 
     <!-- Title -->
     
-    <title>Hexo</title>
+    <title>laradock笔记 - Hexo</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -129,17 +132,14 @@
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
-            <h1 id="main-title" class="title">Hexo</h1>
-        
     </div>
 </header>
 
         <section class="main">
             
-                
 <div class="post">
 
-    <div class="post-header index">
+    <div class="post-header">
         <h1 class="title">
             <a href="/2019/01/09/laradock笔记/">
                 laradock笔记
@@ -154,9 +154,13 @@
         </div>
     </div>
 
-    
-        <div class="content">
-            <h1 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h1><p><a href="https://laradock.io/" target="_blank" rel="noopener">https://laradock.io/</a></p>
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <h1 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h1><p><a href="https://laradock.io/" target="_blank" rel="noopener">https://laradock.io/</a></p>
 <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>Docker的完整PHP开发环境。<br>包括预先打包的Docker镜像，所有这些都经过预先配置，可提供出色的PHP开发环境。<br>Laradock在Laravel社区中是众所周知的，因为该项目始于专注于在Docker上运行Laravel项目。<br>后来由于PHP社区的大量采用，它开始支持其他PHP项目，如Symfony，CodeIgniter，WordPress，Drupal ……</p>
 <h1 id="概念："><a href="#概念：" class="headerlink" title="概念："></a>概念：</h1><p>workspace 工作空间<br>多个项目可以放在同一个工作空间下<br>workspace 自身也是一个容器，当做一个工具容器来看待<br>workspace 容器中包含很多工具，比如 composer<br>workspace 作用域是整个根目录 /var/www ， php-fpm nginx 等的作用域是自身 /var/www/nginx</p>
 <p>#快速开始：<br><a href="https://laradock.io/getting-started/" target="_blank" rel="noopener">https://laradock.io/getting-started/</a>  入门文档，推荐先看一遍</p>
@@ -182,45 +186,25 @@
 <h1 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h1><p>项目中 .env 配置数据库地址（内部通信）<br>DB_HOST=mysql<br>REDIS_HOST=redis</p>
 <p>数据库外部链接依然是 3306 和 6379</p>
 
-        </div>
-    
-
-</div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/2019/01/09/helloworld/">
-                hello world
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2019-01-09</span>
-            
-            
-            
-        </div>
     </div>
 
     
-        <div class="content">
-            <p>hello world!</p>
 
+    
+        <div class="post-tags">
+            <i class="fa fa-tags" aria-hidden="true"></i>
+            <a href="/tags/docker/">#docker</a>
         </div>
     
 
+    <!-- Comments -->
+    
+
 </div>
-            
         </section>
+
     </div>
 </div>
-
-
-
-
 
 
 </div>
